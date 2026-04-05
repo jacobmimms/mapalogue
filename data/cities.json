@@ -1,0 +1,25 @@
+{
+  "stockholm": {
+    "name": "Stockholm",
+    "country": "SE",
+    "center": [18.07, 59.33],
+    "zoom": 12,
+    "osmRelationId": 398021,
+    "boundaryStrategy": "voronoi",
+    "filterRadiusKm": 6,
+    "exclude": [],
+    "include": []
+  },
+  "barcelona": {
+    "name": "Barcelona",
+    "country": "ES",
+    "center": [2.17, 41.39],
+    "zoom": 12.5,
+    "osmRelationId": 347950,
+    "boundaryStrategy": "admin",
+    "adminLevel": 10,
+    "filterRadiusKm": 6,
+    "exclude": [],
+    "include": []
+  }
+}

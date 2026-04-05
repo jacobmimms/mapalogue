@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "pipeline": "cd pipeline && npx tsx generate-city.ts"
   },
   "dependencies": {
     "@types/mapbox-gl": "^3.4.1",

@@ -34,9 +34,18 @@ yarn-error.log*
 .env*
 !.env.local.example
 
+# pipeline
+pipeline/node_modules
+data/*/boundaries.geojson
+data/*/poi-counts.json
+data/*/vibe-scores.json
+data/*/city.json
+data/*/descriptions.yaml
+
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.env*.local

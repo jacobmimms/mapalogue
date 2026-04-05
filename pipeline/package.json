@@ -1,0 +1,19 @@
+{
+  "name": "mapalogue-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "tsx generate-city.ts"
+  },
+  "dependencies": {
+    "osmtogeojson": "^3.0.0-beta.5",
+    "@turf/turf": "^7.2.0",
+    "yaml": "^2.7.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0",
+    "@types/geojson": "^7946.0.16"
+  }
+}
