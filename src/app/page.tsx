@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const CITIES = [
   { name: "Stockholm", country: "SE", emoji: "🇸🇪", neighborhoods: 19 },
-  { name: "Barcelona", country: "ES", emoji: "🇪🇸", neighborhoods: 10 },
+  { name: "Barcelona", country: "ES", emoji: "🇪🇸", neighborhoods: 33 },
 ];
 
 const VIBE_TAGS = [

@@ -4,19 +4,191 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "El Raval",
+        "name": "Vallcarca",
         "city": "barcelona",
-        "description": "Gritty, multicultural, and creative. Street art, independent galleries, MACBA, and dive bars. Barcelona's Kreuzberg.",
+        "description": "Vallcarca is a neighborhood in barcelona.",
+        "dominantVibe": "upscale",
+        "vibes": {
+          "artsy": 0.02,
+          "nightlife": 0.04,
+          "upscale": 0.09,
+          "touristy": 0.05,
+          "working_class": 0.04,
+          "financial": 0.09,
+          "foodie": 0.04,
+          "student": 0.03
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1362338312612033,
+              41.41220665761593
+            ],
+            [
+              2.1378352201396216,
+              41.41002148517855
+            ],
+            [
+              2.1517504501879516,
+              41.413719034262414
+            ],
+            [
+              2.153879120793443,
+              41.417603379323914
+            ],
+            [
+              2.1451636911217933,
+              41.423035363766935
+            ],
+            [
+              2.1362338312612033,
+              41.41220665761593
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "la Ribera",
+        "city": "barcelona",
+        "description": "la Ribera is a neighborhood in barcelona.",
+        "dominantVibe": "nightlife",
+        "vibes": {
+          "artsy": 0.09,
+          "nightlife": 0.27,
+          "upscale": 0.23,
+          "touristy": 0.23,
+          "working_class": 0.23,
+          "financial": 0.21,
+          "foodie": 0.26,
+          "student": 0.27
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1805318522103163,
+              41.38436712554561
+            ],
+            [
+              2.1909753223772483,
+              41.375396826449695
+            ],
+            [
+              2.1929176,
+              41.3771347
+            ],
+            [
+              2.1930306,
+              41.3790654
+            ],
+            [
+              2.1942241,
+              41.3804769
+            ],
+            [
+              2.1948974,
+              41.3809886
+            ],
+            [
+              2.1967387,
+              41.3803361
+            ],
+            [
+              2.1956462,
+              41.3814601
+            ],
+            [
+              2.1973159,
+              41.3811181
+            ],
+            [
+              2.195437,
+              41.381787
+            ],
+            [
+              2.1959158,
+              41.3831878
+            ],
+            [
+              2.1999862,
+              41.3851923
+            ],
+            [
+              2.1983267,
+              41.3868849
+            ],
+            [
+              2.2004383,
+              41.3883178
+            ],
+            [
+              2.2019391,
+              41.3871842
+            ],
+            [
+              2.2001989,
+              41.3858676
+            ],
+            [
+              2.2007974,
+              41.3854052
+            ],
+            [
+              2.2027294,
+              41.3866053
+            ],
+            [
+              2.1988498,
+              41.3836624
+            ],
+            [
+              2.1998791,
+              41.3833613
+            ],
+            [
+              2.2036206,
+              41.3874161
+            ],
+            [
+              2.1888392415994735,
+              41.4002405235986
+            ],
+            [
+              2.1816336454235374,
+              41.388923657399886
+            ],
+            [
+              2.1805318522103163,
+              41.38436712554561
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Caterina",
+        "city": "barcelona",
+        "description": "Santa Caterina is a artsy, nightlife, upscale neighborhood in barcelona.",
         "dominantVibe": "artsy",
         "vibes": {
-          "artsy": 0.85,
-          "nightlife": 0.75,
-          "upscale": 0.1,
-          "touristy": 0.4,
-          "working_class": 0.8,
-          "financial": 0.05,
-          "foodie": 0.6,
-          "student": 0.5
+          "artsy": 1,
+          "nightlife": 1,
+          "upscale": 1,
+          "touristy": 1,
+          "working_class": 1,
+          "financial": 1,
+          "foodie": 1,
+          "student": 1
         }
       },
       "geometry": {
@@ -24,140 +196,24 @@
         "coordinates": [
           [
             [
-              2.165,
-              41.385
+              2.1645923025518194,
+              41.37718159955324
             ],
             [
-              2.165,
-              41.378
+              2.1805318522103163,
+              41.38436712554561
             ],
             [
-              2.17,
-              41.375
+              2.1816336454235374,
+              41.388923657399886
             ],
             [
-              2.175,
-              41.378
+              2.166764758762961,
+              41.381347231608586
             ],
             [
-              2.175,
-              41.385
-            ],
-            [
-              2.17,
-              41.387
-            ],
-            [
-              2.165,
-              41.385
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "El Born",
-        "city": "barcelona",
-        "description": "Trendy medieval quarter. Boutique shopping, cocktail bars, Picasso Museum, and the best tapas in town. Stockholm's Södermalm equivalent.",
-        "dominantVibe": "foodie",
-        "vibes": {
-          "artsy": 0.7,
-          "nightlife": 0.8,
-          "upscale": 0.5,
-          "touristy": 0.6,
-          "working_class": 0.2,
-          "financial": 0.05,
-          "foodie": 0.9,
-          "student": 0.3
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              2.175,
-              41.387
-            ],
-            [
-              2.175,
-              41.381
-            ],
-            [
-              2.182,
-              41.38
-            ],
-            [
-              2.188,
-              41.382
-            ],
-            [
-              2.188,
-              41.387
-            ],
-            [
-              2.183,
-              41.389
-            ],
-            [
-              2.175,
-              41.387
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Barri Gòtic",
-        "city": "barcelona",
-        "description": "The Gothic Quarter. Roman ruins, the cathedral, narrow medieval streets packed with tourists. Barcelona's Gamla Stan.",
-        "dominantVibe": "touristy",
-        "vibes": {
-          "artsy": 0.3,
-          "nightlife": 0.5,
-          "upscale": 0.3,
-          "touristy": 0.95,
-          "working_class": 0.1,
-          "financial": 0.1,
-          "foodie": 0.5,
-          "student": 0.1
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              2.17,
-              41.387
-            ],
-            [
-              2.17,
-              41.381
-            ],
-            [
-              2.175,
-              41.379
-            ],
-            [
-              2.178,
-              41.381
-            ],
-            [
-              2.178,
-              41.387
-            ],
-            [
-              2.175,
-              41.389
-            ],
-            [
-              2.17,
-              41.387
+              2.1645923025518194,
+              41.37718159955324
             ]
           ]
         ]
@@ -168,16 +224,554 @@
       "properties": {
         "name": "Eixample",
         "city": "barcelona",
-        "description": "The grand grid district. Modernista architecture, Sagrada Familia, high-end shopping on Passeig de Gràcia. Elegant and central.",
+        "description": "Eixample is a upscale, student, foodie neighborhood in barcelona.",
         "dominantVibe": "upscale",
         "vibes": {
-          "artsy": 0.4,
-          "nightlife": 0.5,
+          "artsy": 0.22,
+          "nightlife": 0.6,
           "upscale": 0.85,
-          "touristy": 0.6,
-          "working_class": 0.1,
-          "financial": 0.5,
-          "foodie": 0.7,
+          "touristy": 0.34,
+          "working_class": 0.34,
+          "financial": 0.55,
+          "foodie": 0.71,
+          "student": 0.75
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.152046135426394,
+              41.38308086689979
+            ],
+            [
+              2.162720593204522,
+              41.374502705560005
+            ],
+            [
+              2.166764758762961,
+              41.381347231608586
+            ],
+            [
+              2.1728521375800542,
+              41.39694961338759
+            ],
+            [
+              2.1612874999522993,
+              41.400266224142115
+            ],
+            [
+              2.1547718614034492,
+              41.39754935251258
+            ],
+            [
+              2.1540042372555543,
+              41.396293177490065
+            ],
+            [
+              2.152046135426394,
+              41.38308086689979
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "les Corts",
+        "city": "barcelona",
+        "description": "les Corts is a neighborhood in barcelona.",
+        "dominantVibe": "student",
+        "vibes": {
+          "artsy": 0.01,
+          "nightlife": 0.01,
+          "upscale": 0.02,
+          "touristy": 0,
+          "working_class": 0.03,
+          "financial": 0.09,
+          "foodie": 0.03,
+          "student": 0.27
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.0979362937312316,
+              41.39361623293698
+            ],
+            [
+              2.0996239,
+              41.3920926
+            ],
+            [
+              2.0999083912849272,
+              41.390581134724236
+            ],
+            [
+              2.1201259134335393,
+              41.38151485246149
+            ],
+            [
+              2.126620844386213,
+              41.39401080326776
+            ],
+            [
+              2.115061502086419,
+              41.401651580888384
+            ],
+            [
+              2.0979362937312316,
+              41.39361623293698
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vallvidrera",
+        "city": "barcelona",
+        "description": "Vallvidrera is a neighborhood in barcelona.",
+        "dominantVibe": "touristy",
+        "vibes": {
+          "artsy": 0,
+          "nightlife": 0,
+          "upscale": 0,
+          "touristy": 0.04,
+          "working_class": 0,
+          "financial": 0,
+          "foodie": 0,
+          "student": 0
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                2.0524977,
+                41.4241586
+              ],
+              [
+                2.0564178,
+                41.421348
+              ],
+              [
+                2.0572063,
+                41.4184141
+              ],
+              [
+                2.0568524,
+                41.4158638
+              ],
+              [
+                2.0547371,
+                41.4140393
+              ],
+              [
+                2.056562,
+                41.4105916
+              ],
+              [
+                2.0587752,
+                41.4109082
+              ],
+              [
+                2.0585081,
+                41.4128557
+              ],
+              [
+                2.0609928,
+                41.4126651
+              ],
+              [
+                2.0619762,
+                41.4136211
+              ],
+              [
+                2.0636182,
+                41.4135126
+              ],
+              [
+                2.0649601,
+                41.4163075
+              ],
+              [
+                2.0640601,
+                41.4181118
+              ],
+              [
+                2.0708402,
+                41.4185506
+              ],
+              [
+                2.0692933,
+                41.4234088
+              ],
+              [
+                2.0695911,
+                41.4250792
+              ],
+              [
+                2.0668385,
+                41.4264433
+              ],
+              [
+                2.0675827,
+                41.4295436
+              ],
+              [
+                2.0643757,
+                41.4299913
+              ],
+              [
+                2.0631181,
+                41.4335041
+              ],
+              [
+                2.0602636,
+                41.4340261
+              ],
+              [
+                2.0578575,
+                41.4358519
+              ],
+              [
+                2.0574167,
+                41.4347999
+              ],
+              [
+                2.058691,
+                41.4304221
+              ],
+              [
+                2.0579748,
+                41.4264472
+              ],
+              [
+                2.0524977,
+                41.4241586
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                2.0699404,
+                41.4071652
+              ],
+              [
+                2.0724435,
+                41.4035343
+              ],
+              [
+                2.0778699,
+                41.4030421
+              ],
+              [
+                2.0839063,
+                41.4094373
+              ],
+              [
+                2.0862821,
+                41.4096921
+              ],
+              [
+                2.0945905,
+                41.407973
+              ],
+              [
+                2.098565,
+                41.4089399
+              ],
+              [
+                2.1001029,
+                41.4084213
+              ],
+              [
+                2.1037164,
+                41.4032638
+              ],
+              [
+                2.102467,
+                41.3999882
+              ],
+              [
+                2.100595,
+                41.3985318
+              ],
+              [
+                2.0979362937312316,
+                41.39361623293698
+              ],
+              [
+                2.115061502086419,
+                41.401651580888384
+              ],
+              [
+                2.1169677058493943,
+                41.405071346458634
+              ],
+              [
+                2.1184419515604547,
+                41.41054350171402
+              ],
+              [
+                2.1071690336301754,
+                41.428719056455
+              ],
+              [
+                2.1032001,
+                41.4282259
+              ],
+              [
+                2.0989603,
+                41.4302961
+              ],
+              [
+                2.0987132,
+                41.4317206
+              ],
+              [
+                2.0950879,
+                41.4333942
+              ],
+              [
+                2.0921852,
+                41.4299398
+              ],
+              [
+                2.0901605,
+                41.4288322
+              ],
+              [
+                2.0889312,
+                41.4291748
+              ],
+              [
+                2.0881597,
+                41.4281827
+              ],
+              [
+                2.0837364,
+                41.4300534
+              ],
+              [
+                2.0839959,
+                41.4307711
+              ],
+              [
+                2.0826768,
+                41.4308836
+              ],
+              [
+                2.0822126,
+                41.4318315
+              ],
+              [
+                2.0804902,
+                41.4306113
+              ],
+              [
+                2.0799734,
+                41.4318046
+              ],
+              [
+                2.0753077,
+                41.4330285
+              ],
+              [
+                2.0749941,
+                41.434834
+              ],
+              [
+                2.0729483,
+                41.4352936
+              ],
+              [
+                2.0726291,
+                41.4364152
+              ],
+              [
+                2.0711633,
+                41.4358767
+              ],
+              [
+                2.0708269,
+                41.4344781
+              ],
+              [
+                2.0716968,
+                41.4318287
+              ],
+              [
+                2.0766003,
+                41.4287488
+              ],
+              [
+                2.0731446,
+                41.4275421
+              ],
+              [
+                2.0727269,
+                41.4251027
+              ],
+              [
+                2.0781193,
+                41.4249182
+              ],
+              [
+                2.0801991,
+                41.4241328
+              ],
+              [
+                2.0799376,
+                41.422929
+              ],
+              [
+                2.075119,
+                41.4221879
+              ],
+              [
+                2.0768825,
+                41.4210294
+              ],
+              [
+                2.0772655,
+                41.4187347
+              ],
+              [
+                2.0787764,
+                41.4189379
+              ],
+              [
+                2.0782745,
+                41.4180238
+              ],
+              [
+                2.0794005,
+                41.4159031
+              ],
+              [
+                2.0760405,
+                41.4127168
+              ],
+              [
+                2.0721272,
+                41.4109784
+              ],
+              [
+                2.0713197,
+                41.409211
+              ],
+              [
+                2.0720876,
+                41.4075565
+              ],
+              [
+                2.0699404,
+                41.4071652
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "el Tibidabo",
+        "city": "barcelona",
+        "description": "el Tibidabo is a neighborhood in barcelona.",
+        "dominantVibe": "touristy",
+        "vibes": {
+          "artsy": 0,
+          "nightlife": 0,
+          "upscale": 0,
+          "touristy": 0.15,
+          "working_class": 0,
+          "financial": 0,
+          "foodie": 0,
+          "student": 0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1071690336301754,
+              41.428719056455
+            ],
+            [
+              2.1184419515604547,
+              41.41054350171402
+            ],
+            [
+              2.1284495418116185,
+              41.41869316788667
+            ],
+            [
+              2.132230552708755,
+              41.438553359412424
+            ],
+            [
+              2.1310640463002275,
+              41.444101740189765
+            ],
+            [
+              2.1294119,
+              41.4420384
+            ],
+            [
+              2.129817,
+              41.4408049
+            ],
+            [
+              2.1279054,
+              41.4337147
+            ],
+            [
+              2.1207157,
+              41.4258633
+            ],
+            [
+              2.1152461,
+              41.4270052
+            ],
+            [
+              2.1131419,
+              41.4286926
+            ],
+            [
+              2.1071690336301754,
+              41.428719056455
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "la Bonanova",
+        "city": "barcelona",
+        "description": "la Bonanova is a neighborhood in barcelona.",
+        "dominantVibe": "student",
+        "vibes": {
+          "artsy": 0.02,
+          "nightlife": 0.02,
+          "upscale": 0.02,
+          "touristy": 0.02,
+          "working_class": 0.02,
+          "financial": 0.02,
+          "foodie": 0.01,
           "student": 0.2
         }
       },
@@ -186,36 +780,872 @@
         "coordinates": [
           [
             [
-              2.145,
-              41.4
+              2.1169677058493943,
+              41.405071346458634
             ],
             [
-              2.145,
-              41.39
+              2.1340369455470696,
+              41.40575268701765
             ],
             [
-              2.16,
-              41.388
+              2.1373390229302855,
+              41.41018145311604
             ],
             [
-              2.18,
-              41.39
+              2.1362338312612033,
+              41.41220665761593
             ],
             [
-              2.18,
-              41.4
+              2.1284495418116185,
+              41.41869316788667
             ],
             [
-              2.17,
-              41.405
+              2.1184419515604547,
+              41.41054350171402
             ],
             [
-              2.155,
-              41.405
+              2.1169677058493943,
+              41.405071346458634
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Galvany",
+        "city": "barcelona",
+        "description": "Galvany is a financial neighborhood in barcelona.",
+        "dominantVibe": "financial",
+        "vibes": {
+          "artsy": 0.04,
+          "nightlife": 0.29,
+          "upscale": 0.45,
+          "touristy": 0.14,
+          "working_class": 0.17,
+          "financial": 0.7,
+          "foodie": 0.34,
+          "student": 0.35
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.133925700669698,
+              41.391503439943065
             ],
             [
-              2.145,
-              41.4
+              2.138940652944942,
+              41.38299780772344
+            ],
+            [
+              2.152046135426394,
+              41.38308086689979
+            ],
+            [
+              2.1540042372555543,
+              41.396293177490065
+            ],
+            [
+              2.1428917363494855,
+              41.40141780606243
+            ],
+            [
+              2.135099484489613,
+              41.39431450702415
+            ],
+            [
+              2.133925700669698,
+              41.391503439943065
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sant Gervasi",
+        "city": "barcelona",
+        "description": "Sant Gervasi is a neighborhood in barcelona.",
+        "dominantVibe": "financial",
+        "vibes": {
+          "artsy": 0.01,
+          "nightlife": 0.06,
+          "upscale": 0.08,
+          "touristy": 0.01,
+          "working_class": 0.12,
+          "financial": 0.23,
+          "foodie": 0.09,
+          "student": 0.12
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1340369455470696,
+              41.40575268701765
+            ],
+            [
+              2.135099484489613,
+              41.39431450702415
+            ],
+            [
+              2.1428917363494855,
+              41.40141780606243
+            ],
+            [
+              2.14275353385934,
+              41.403176500495846
+            ],
+            [
+              2.1373390229302855,
+              41.41018145311604
+            ],
+            [
+              2.1340369455470696,
+              41.40575268701765
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "el Camp d'en Grassot",
+        "city": "barcelona",
+        "description": "el Camp d'en Grassot is a foodie, upscale, student neighborhood in barcelona.",
+        "dominantVibe": "foodie",
+        "vibes": {
+          "artsy": 0.05,
+          "nightlife": 0.29,
+          "upscale": 0.56,
+          "touristy": 0.08,
+          "working_class": 0.34,
+          "financial": 0.44,
+          "foodie": 0.59,
+          "student": 0.51
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1612874999522993,
+              41.400266224142115
+            ],
+            [
+              2.1728521375800542,
+              41.39694961338759
+            ],
+            [
+              2.1849489504951203,
+              41.40485452033338
+            ],
+            [
+              2.1729300633837894,
+              41.41483513769027
+            ],
+            [
+              2.162374494801767,
+              41.40491383793512
+            ],
+            [
+              2.1612874999522993,
+              41.400266224142115
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "el Putxet",
+        "city": "barcelona",
+        "description": "el Putxet is a neighborhood in barcelona.",
+        "dominantVibe": "working_class",
+        "vibes": {
+          "artsy": 0,
+          "nightlife": 0,
+          "upscale": 0.02,
+          "touristy": 0.07,
+          "working_class": 0.22,
+          "financial": 0.05,
+          "foodie": 0.05,
+          "student": 0.05
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1378352201396216,
+              41.41002148517855
+            ],
+            [
+              2.14275353385934,
+              41.403176500495846
+            ],
+            [
+              2.151518873788877,
+              41.40995334169338
+            ],
+            [
+              2.1517504501879516,
+              41.413719034262414
+            ],
+            [
+              2.1378352201396216,
+              41.41002148517855
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "el Farró",
+        "city": "barcelona",
+        "description": "el Farró is a neighborhood in barcelona.",
+        "dominantVibe": "financial",
+        "vibes": {
+          "artsy": 0.07,
+          "nightlife": 0.18,
+          "upscale": 0.38,
+          "touristy": 0.06,
+          "working_class": 0.35,
+          "financial": 0.46,
+          "foodie": 0.38,
+          "student": 0.4
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.14275353385934,
+              41.403176500495846
+            ],
+            [
+              2.1428917363494855,
+              41.40141780606243
+            ],
+            [
+              2.1540042372555543,
+              41.396293177490065
+            ],
+            [
+              2.1547718614034492,
+              41.39754935251258
+            ],
+            [
+              2.151518873788877,
+              41.40995334169338
+            ],
+            [
+              2.14275353385934,
+              41.403176500495846
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "el Congrés",
+        "city": "barcelona",
+        "description": "el Congrés is a neighborhood in barcelona.",
+        "dominantVibe": "financial",
+        "vibes": {
+          "artsy": 0.02,
+          "nightlife": 0.13,
+          "upscale": 0.03,
+          "touristy": 0.01,
+          "working_class": 0.13,
+          "financial": 0.17,
+          "foodie": 0.06,
+          "student": 0.08
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1768417100631208,
+              41.42252557137755
+            ],
+            [
+              2.1903751664237894,
+              41.42871356622667
+            ],
+            [
+              2.184706616634156,
+              41.436511574014375
+            ],
+            [
+              2.1769986144361235,
+              41.42645889089873
+            ],
+            [
+              2.1768417100631208,
+              41.42252557137755
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "els Indians",
+        "city": "barcelona",
+        "description": "els Indians is a neighborhood in barcelona.",
+        "dominantVibe": "nightlife",
+        "vibes": {
+          "artsy": 0.02,
+          "nightlife": 0.25,
+          "upscale": 0.17,
+          "touristy": 0.03,
+          "working_class": 0.22,
+          "financial": 0.22,
+          "foodie": 0.18,
+          "student": 0.23
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1734162396814267,
+              41.41469157885021
+            ],
+            [
+              2.185280655152199,
+              41.404807092766156
+            ],
+            [
+              2.1931382129759918,
+              41.41615907708176
+            ],
+            [
+              2.1912960134606063,
+              41.42787398731105
+            ],
+            [
+              2.1903751664237894,
+              41.42871356622667
+            ],
+            [
+              2.1768417100631208,
+              41.42252557137755
+            ],
+            [
+              2.1734162396814267,
+              41.41469157885021
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "la Verneda",
+        "city": "barcelona",
+        "description": "la Verneda is a neighborhood in barcelona.",
+        "dominantVibe": "working_class",
+        "vibes": {
+          "artsy": 0,
+          "nightlife": 0.05,
+          "upscale": 0.01,
+          "touristy": 0,
+          "working_class": 0.08,
+          "financial": 0.06,
+          "foodie": 0.02,
+          "student": 0.04
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1912960134606063,
+              41.42787398731105
+            ],
+            [
+              2.1931382129759918,
+              41.41615907708176
+            ],
+            [
+              2.1995385890458774,
+              41.41683119557702
+            ],
+            [
+              2.2073450002043393,
+              41.428419582406185
+            ],
+            [
+              2.2059186,
+              41.4329591
+            ],
+            [
+              2.2105604,
+              41.4336748
+            ],
+            [
+              2.2092629632261414,
+              41.437111481487094
+            ],
+            [
+              2.1912960134606063,
+              41.42787398731105
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "la Pau",
+        "city": "barcelona",
+        "description": "la Pau is a neighborhood in barcelona.",
+        "dominantVibe": "working_class",
+        "vibes": {
+          "artsy": 0,
+          "nightlife": 0.1,
+          "upscale": 0,
+          "touristy": 0.08,
+          "working_class": 0.15,
+          "financial": 0.07,
+          "foodie": 0.01,
+          "student": 0.05
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1995385890458774,
+              41.41683119557702
+            ],
+            [
+              2.2007683632373114,
+              41.41646633855914
+            ],
+            [
+              2.2120635971452214,
+              41.42112891986091
+            ],
+            [
+              2.2099752,
+              41.4246294
+            ],
+            [
+              2.2061447,
+              41.4256223
+            ],
+            [
+              2.2073450002043393,
+              41.428419582406185
+            ],
+            [
+              2.1995385890458774,
+              41.41683119557702
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "els Penitents",
+        "city": "barcelona",
+        "description": "els Penitents is a neighborhood in barcelona.",
+        "dominantVibe": "working_class",
+        "vibes": {
+          "artsy": 0.01,
+          "nightlife": 0.04,
+          "upscale": 0,
+          "touristy": 0.03,
+          "working_class": 0.09,
+          "financial": 0.02,
+          "foodie": 0.01,
+          "student": 0.06
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1284495418116185,
+              41.41869316788667
+            ],
+            [
+              2.1362338312612033,
+              41.41220665761593
+            ],
+            [
+              2.1451636911217933,
+              41.423035363766935
+            ],
+            [
+              2.132230552708755,
+              41.438553359412424
+            ],
+            [
+              2.1284495418116185,
+              41.41869316788667
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gràcia Nova",
+        "city": "barcelona",
+        "description": "Gràcia Nova is a neighborhood in barcelona.",
+        "dominantVibe": "working_class",
+        "vibes": {
+          "artsy": 0.01,
+          "nightlife": 0.17,
+          "upscale": 0.16,
+          "touristy": 0.08,
+          "working_class": 0.24,
+          "financial": 0.18,
+          "foodie": 0.12,
+          "student": 0.15
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.153831223547345,
+              41.4174481037828
+            ],
+            [
+              2.162374494801767,
+              41.40491383793512
+            ],
+            [
+              2.1729300633837894,
+              41.41483513769027
+            ],
+            [
+              2.1614201902393293,
+              41.42209890607962
+            ],
+            [
+              2.153831223547345,
+              41.4174481037828
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sant Ramon",
+        "city": "barcelona",
+        "description": "Sant Ramon is a neighborhood in barcelona.",
+        "dominantVibe": "student",
+        "vibes": {
+          "artsy": 0,
+          "nightlife": 0.04,
+          "upscale": 0.02,
+          "touristy": 0.02,
+          "working_class": 0.01,
+          "financial": 0.06,
+          "foodie": 0.02,
+          "student": 0.09
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                2.0999083912849272,
+                41.390581134724236
+              ],
+              [
+                2.1002826,
+                41.3887501
+              ],
+              [
+                2.1016867,
+                41.3877514
+              ],
+              [
+                2.1027527,
+                41.3803364
+              ],
+              [
+                2.1086781,
+                41.3780322
+              ],
+              [
+                2.1095536,
+                41.3759593
+              ],
+              [
+                2.1177666,
+                41.3757714
+              ],
+              [
+                2.121396,
+                41.3778951
+              ],
+              [
+                2.1217654,
+                41.3756783
+              ],
+              [
+                2.129351332332112,
+                41.37059988347797
+              ],
+              [
+                2.129531603480767,
+                41.37123754580947
+              ],
+              [
+                2.1201259134335393,
+                41.38151485246149
+              ],
+              [
+                2.0999083912849272,
+                41.390581134724236
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                2.1023932,
+                41.3351454
+              ],
+              [
+                2.107977,
+                41.3311023
+              ],
+              [
+                2.1119118,
+                41.3261376
+              ],
+              [
+                2.116123284348065,
+                41.32380910202664
+              ],
+              [
+                2.121144326868471,
+                41.341569734851184
+              ],
+              [
+                2.1023932,
+                41.3351454
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vilapicina",
+        "city": "barcelona",
+        "description": "Vilapicina is a neighborhood in barcelona.",
+        "dominantVibe": "working_class",
+        "vibes": {
+          "artsy": 0.01,
+          "nightlife": 0.03,
+          "upscale": 0,
+          "touristy": 0.07,
+          "working_class": 0.1,
+          "financial": 0.06,
+          "foodie": 0.02,
+          "student": 0.03
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.162484834945823,
+              41.45023749395515
+            ],
+            [
+              2.162979485220271,
+              41.438293613988684
+            ],
+            [
+              2.1769986144361235,
+              41.42645889089873
+            ],
+            [
+              2.184706616634156,
+              41.436511574014375
+            ],
+            [
+              2.174645969804684,
+              41.46352825775587
+            ],
+            [
+              2.1720148,
+              41.4613726
+            ],
+            [
+              2.1658885,
+              41.4585337
+            ],
+            [
+              2.164424,
+              41.4560698
+            ],
+            [
+              2.1651421,
+              41.4548671
+            ],
+            [
+              2.1648552,
+              41.4527643
+            ],
+            [
+              2.1656669,
+              41.4518364
+            ],
+            [
+              2.1642089,
+              41.4499034
+            ],
+            [
+              2.162484834945823,
+              41.45023749395515
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "la Torre Llobeta",
+        "city": "barcelona",
+        "description": "la Torre Llobeta is a neighborhood in barcelona.",
+        "dominantVibe": "touristy",
+        "vibes": {
+          "artsy": 0,
+          "nightlife": 0.04,
+          "upscale": 0.05,
+          "touristy": 0.1,
+          "working_class": 0.09,
+          "financial": 0.05,
+          "foodie": 0.04,
+          "student": 0.04
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1614201902393293,
+              41.42209890607962
+            ],
+            [
+              2.1734162396814267,
+              41.41469157885021
+            ],
+            [
+              2.1768417100631208,
+              41.42252557137755
+            ],
+            [
+              2.1769986144361235,
+              41.42645889089873
+            ],
+            [
+              2.162979485220271,
+              41.438293613988684
+            ],
+            [
+              2.1614201902393293,
+              41.42209890607962
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sant Pere",
+        "city": "barcelona",
+        "description": "Sant Pere is a student neighborhood in barcelona.",
+        "dominantVibe": "student",
+        "vibes": {
+          "artsy": 0.2,
+          "nightlife": 0.33,
+          "upscale": 0.3,
+          "touristy": 0.29,
+          "working_class": 0.36,
+          "financial": 0.37,
+          "foodie": 0.39,
+          "student": 0.51
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.166764758762961,
+              41.381347231608586
+            ],
+            [
+              2.1816336454235374,
+              41.388923657399886
+            ],
+            [
+              2.1888392415994735,
+              41.4002405235986
+            ],
+            [
+              2.185280655152199,
+              41.404807092766156
+            ],
+            [
+              2.1728521375800542,
+              41.39694961338759
+            ],
+            [
+              2.166764758762961,
+              41.381347231608586
             ]
           ]
         ]
@@ -226,187 +1656,17 @@
       "properties": {
         "name": "Gràcia",
         "city": "barcelona",
-        "description": "Village-feel neighborhood. Plaza life, indie boutiques, young creatives, and the best vermouth. Barcelona's Vasastan meets Södermalm.",
-        "dominantVibe": "artsy",
-        "vibes": {
-          "artsy": 0.85,
-          "nightlife": 0.6,
-          "upscale": 0.3,
-          "touristy": 0.3,
-          "working_class": 0.5,
-          "financial": 0.05,
-          "foodie": 0.8,
-          "student": 0.6
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              2.15,
-              41.41
-            ],
-            [
-              2.15,
-              41.403
-            ],
-            [
-              2.16,
-              41.4
-            ],
-            [
-              2.17,
-              41.403
-            ],
-            [
-              2.17,
-              41.41
-            ],
-            [
-              2.163,
-              41.413
-            ],
-            [
-              2.155,
-              41.413
-            ],
-            [
-              2.15,
-              41.41
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Barceloneta",
-        "city": "barcelona",
-        "description": "The beach neighborhood. Seafood restaurants, boardwalk bars, surfers, and sun-seekers. Tourist-heavy but with local character.",
-        "dominantVibe": "touristy",
-        "vibes": {
-          "artsy": 0.1,
-          "nightlife": 0.6,
-          "upscale": 0.2,
-          "touristy": 0.9,
-          "working_class": 0.6,
-          "financial": 0,
-          "foodie": 0.7,
-          "student": 0.3
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              2.185,
-              41.385
-            ],
-            [
-              2.185,
-              41.378
-            ],
-            [
-              2.19,
-              41.373
-            ],
-            [
-              2.195,
-              41.375
-            ],
-            [
-              2.198,
-              41.38
-            ],
-            [
-              2.195,
-              41.385
-            ],
-            [
-              2.19,
-              41.387
-            ],
-            [
-              2.185,
-              41.385
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Poble Sec",
-        "city": "barcelona",
-        "description": "Up-and-coming area at the base of Montjuïc. Pintxo bars on Carrer Blai, local feel, increasingly hip. Barcelona's Hornstull.",
+        "description": "Gràcia is a nightlife, upscale, student neighborhood in barcelona.",
         "dominantVibe": "nightlife",
         "vibes": {
-          "artsy": 0.5,
-          "nightlife": 0.8,
-          "upscale": 0.15,
-          "touristy": 0.2,
-          "working_class": 0.7,
-          "financial": 0,
-          "foodie": 0.85,
-          "student": 0.5
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              2.155,
-              41.378
-            ],
-            [
-              2.155,
-              41.372
-            ],
-            [
-              2.165,
-              41.37
-            ],
-            [
-              2.175,
-              41.372
-            ],
-            [
-              2.175,
-              41.378
-            ],
-            [
-              2.165,
-              41.38
-            ],
-            [
-              2.155,
-              41.378
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sarrià-Sant Gervasi",
-        "city": "barcelona",
-        "description": "Wealthy residential area in the hills. International schools, quiet streets, upscale dining. Barcelona's Östermalm.",
-        "dominantVibe": "upscale",
-        "vibes": {
-          "artsy": 0.1,
-          "nightlife": 0.3,
-          "upscale": 0.95,
+          "artsy": 0.27,
+          "nightlife": 0.68,
+          "upscale": 0.66,
           "touristy": 0.1,
-          "working_class": 0.05,
-          "financial": 0.3,
-          "foodie": 0.5,
-          "student": 0.2
+          "working_class": 0.47,
+          "financial": 0.18,
+          "foodie": 0.49,
+          "student": 0.56
         }
       },
       "geometry": {
@@ -414,36 +1674,32 @@
         "coordinates": [
           [
             [
-              2.12,
-              41.41
+              2.151518873788877,
+              41.40995334169338
             ],
             [
-              2.12,
-              41.4
+              2.1547718614034492,
+              41.39754935251258
             ],
             [
-              2.135,
-              41.395
+              2.1612874999522993,
+              41.400266224142115
             ],
             [
-              2.15,
-              41.4
+              2.162374494801767,
+              41.40491383793512
             ],
             [
-              2.15,
-              41.41
+              2.153831223547345,
+              41.4174481037828
             ],
             [
-              2.14,
-              41.415
+              2.1517504501879516,
+              41.413719034262414
             ],
             [
-              2.13,
-              41.415
-            ],
-            [
-              2.12,
-              41.41
+              2.151518873788877,
+              41.40995334169338
             ]
           ]
         ]
@@ -452,73 +1708,343 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Poblenou",
+        "name": "Old Town",
         "city": "barcelona",
-        "description": "Former industrial area turned tech and design hub. 22@ district, co-working spaces, beach access. Barcelona's emerging creative center.",
-        "dominantVibe": "artsy",
+        "description": "Old Town is a neighborhood in barcelona.",
+        "dominantVibe": "nightlife",
         "vibes": {
-          "artsy": 0.7,
-          "nightlife": 0.4,
-          "upscale": 0.3,
-          "touristy": 0.2,
-          "working_class": 0.5,
-          "financial": 0.3,
-          "foodie": 0.5,
-          "student": 0.4
-        }
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              2.19,
-              41.405
-            ],
-            [
-              2.19,
-              41.395
-            ],
-            [
-              2.2,
-              41.39
-            ],
-            [
-              2.21,
-              41.393
-            ],
-            [
-              2.21,
-              41.403
-            ],
-            [
-              2.2,
-              41.408
-            ],
-            [
-              2.19,
-              41.405
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sant Antoni",
-        "city": "barcelona",
-        "description": "Trendy market district. The renovated Mercat de Sant Antoni, brunch spots, and a young professional crowd. Buzzy and walkable.",
-        "dominantVibe": "foodie",
-        "vibes": {
-          "artsy": 0.5,
-          "nightlife": 0.6,
-          "upscale": 0.4,
-          "touristy": 0.2,
-          "working_class": 0.4,
+          "artsy": 0.12,
+          "nightlife": 0.36,
+          "upscale": 0.21,
+          "touristy": 0.26,
+          "working_class": 0.3,
           "financial": 0.1,
-          "foodie": 0.85,
-          "student": 0.4
+          "foodie": 0.24,
+          "student": 0.27
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                2.162720593204522,
+                41.374502705560005
+              ],
+              [
+                2.17035835269276,
+                41.35239725530766
+              ],
+              [
+                2.1730549,
+                41.3565153
+              ],
+              [
+                2.1699011,
+                41.3586476
+              ],
+              [
+                2.1709307,
+                41.3602517
+              ],
+              [
+                2.1754746,
+                41.3586415
+              ],
+              [
+                2.1767418,
+                41.3605565
+              ],
+              [
+                2.1734844,
+                41.3620391
+              ],
+              [
+                2.1759898,
+                41.3653257
+              ],
+              [
+                2.1793213,
+                41.3635605
+              ],
+              [
+                2.1807766,
+                41.3658488
+              ],
+              [
+                2.1765255,
+                41.3671374
+              ],
+              [
+                2.1770929,
+                41.3721396
+              ],
+              [
+                2.1820578,
+                41.3703449
+              ],
+              [
+                2.1830472,
+                41.3715837
+              ],
+              [
+                2.1779776,
+                41.3741423
+              ],
+              [
+                2.1823048,
+                41.3795522
+              ],
+              [
+                2.1832514,
+                41.3775416
+              ],
+              [
+                2.181491,
+                41.3753559
+              ],
+              [
+                2.1830563,
+                41.3743386
+              ],
+              [
+                2.1852192,
+                41.3767963
+              ],
+              [
+                2.183671,
+                41.3804973
+              ],
+              [
+                2.1849560053362453,
+                41.38056704988576
+              ],
+              [
+                2.1805318522103163,
+                41.38436712554561
+              ],
+              [
+                2.1645923025518194,
+                41.37718159955324
+              ],
+              [
+                2.162720593204522,
+                41.374502705560005
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                2.1718686,
+                41.3488534
+              ],
+              [
+                2.173614063367886,
+                41.342974472294415
+              ],
+              [
+                2.1754775,
+                41.3508286
+              ],
+              [
+                2.1834675,
+                41.3632566
+              ],
+              [
+                2.183063,
+                41.3652001
+              ],
+              [
+                2.1718686,
+                41.3488534
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                2.1845602,
+                41.3705333
+              ],
+              [
+                2.1851472,
+                41.3681047
+              ],
+              [
+                2.185596,
+                41.3700744
+              ],
+              [
+                2.1858199,
+                41.3680313
+              ],
+              [
+                2.1861771,
+                41.3701236
+              ],
+              [
+                2.1871992,
+                41.3700043
+              ],
+              [
+                2.1866807,
+                41.3669119
+              ],
+              [
+                2.1849342,
+                41.3656316
+              ],
+              [
+                2.185362,
+                41.3646722
+              ],
+              [
+                2.1866543,
+                41.364029
+              ],
+              [
+                2.1862021,
+                41.3643661
+              ],
+              [
+                2.187951,
+                41.3672613
+              ],
+              [
+                2.1892317,
+                41.3665742
+              ],
+              [
+                2.1866503,
+                41.3633849
+              ],
+              [
+                2.1866224,
+                41.3616249
+              ],
+              [
+                2.1852818,
+                41.3581115
+              ],
+              [
+                2.1845976,
+                41.3579036
+              ],
+              [
+                2.1853612,
+                41.3577346
+              ],
+              [
+                2.1877605,
+                41.3634052
+              ],
+              [
+                2.1918919,
+                41.369846
+              ],
+              [
+                2.1901772,
+                41.3695587
+              ],
+              [
+                2.1894634,
+                41.3706802
+              ],
+              [
+                2.1909753223772483,
+                41.375396826449695
+              ],
+              [
+                2.186664995163109,
+                41.3790991326462
+              ],
+              [
+                2.1872794,
+                41.3775567
+              ],
+              [
+                2.1864434,
+                41.3774115
+              ],
+              [
+                2.1871975,
+                41.3772227
+              ],
+              [
+                2.1868679,
+                41.375902
+              ],
+              [
+                2.1850862,
+                41.3751018
+              ],
+              [
+                2.1849137,
+                41.3726429
+              ],
+              [
+                2.1856452,
+                41.3726473
+              ],
+              [
+                2.1859351,
+                41.374533
+              ],
+              [
+                2.1866613,
+                41.3748155
+              ],
+              [
+                2.1874892,
+                41.374557
+              ],
+              [
+                2.1868024,
+                41.3735599
+              ],
+              [
+                2.1874038,
+                41.3722793
+              ],
+              [
+                2.1847778,
+                41.3718367
+              ],
+              [
+                2.1859995,
+                41.3712596
+              ],
+              [
+                2.1847126,
+                41.3711997
+              ],
+              [
+                2.1845602,
+                41.3705333
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sant Martí",
+        "city": "barcelona",
+        "description": "Sant Martí is a neighborhood in barcelona.",
+        "dominantVibe": "working_class",
+        "vibes": {
+          "artsy": 0.04,
+          "nightlife": 0.15,
+          "upscale": 0.12,
+          "touristy": 0.09,
+          "working_class": 0.23,
+          "financial": 0.19,
+          "foodie": 0.17,
+          "student": 0.21
         }
       },
       "geometry": {
@@ -526,32 +2052,842 @@
         "coordinates": [
           [
             [
-              2.155,
-              41.39
+              2.185280655152199,
+              41.404807092766156
             ],
             [
-              2.155,
-              41.383
+              2.1888392415994735,
+              41.4002405235986
             ],
             [
-              2.163,
-              41.38
+              2.201558680682324,
+              41.38927677405351
             ],
             [
-              2.17,
-              41.383
+              2.2039644,
+              41.3910686
             ],
             [
-              2.17,
-              41.39
+              2.2058995,
+              41.390486
             ],
             [
-              2.163,
-              41.392
+              2.204824,
+              41.3916826
             ],
             [
-              2.155,
-              41.39
+              2.2062714,
+              41.3907605
+            ],
+            [
+              2.2055488,
+              41.3917494
+            ],
+            [
+              2.2088647,
+              41.3952648
+            ],
+            [
+              2.2118486,
+              41.3951342
+            ],
+            [
+              2.2108433,
+              41.3963016
+            ],
+            [
+              2.2132496241170347,
+              41.398927763269306
+            ],
+            [
+              2.2087964873262282,
+              41.41098559999843
+            ],
+            [
+              2.1995385890458774,
+              41.41683119557702
+            ],
+            [
+              2.1931382129759918,
+              41.41615907708176
+            ],
+            [
+              2.185280655152199,
+              41.404807092766156
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sant Andreu",
+        "city": "barcelona",
+        "description": "Sant Andreu is a neighborhood in barcelona.",
+        "dominantVibe": "working_class",
+        "vibes": {
+          "artsy": 0.01,
+          "nightlife": 0.03,
+          "upscale": 0,
+          "touristy": 0.01,
+          "working_class": 0.12,
+          "financial": 0.07,
+          "foodie": 0.02,
+          "student": 0.03
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.174645969804684,
+              41.46352825775587
+            ],
+            [
+              2.184706616634156,
+              41.436511574014375
+            ],
+            [
+              2.1912960134606063,
+              41.42787398731105
+            ],
+            [
+              2.2092629632261414,
+              41.437111481487094
+            ],
+            [
+              2.207519,
+              41.4419043
+            ],
+            [
+              2.2045136,
+              41.4457589
+            ],
+            [
+              2.1980784,
+              41.4520647
+            ],
+            [
+              2.1884979,
+              41.4596108
+            ],
+            [
+              2.1869945,
+              41.4674574
+            ],
+            [
+              2.184673,
+              41.4679135
+            ],
+            [
+              2.1796126,
+              41.4672739
+            ],
+            [
+              2.1786475,
+              41.4679046
+            ],
+            [
+              2.1795103,
+              41.4656298
+            ],
+            [
+              2.180469,
+              41.4659192
+            ],
+            [
+              2.1803656,
+              41.4645506
+            ],
+            [
+              2.174645969804684,
+              41.46352825775587
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Horta-Guinardó",
+        "city": "barcelona",
+        "description": "Horta-Guinardó is a neighborhood in barcelona.",
+        "dominantVibe": "working_class",
+        "vibes": {
+          "artsy": 0,
+          "nightlife": 0.05,
+          "upscale": 0.02,
+          "touristy": 0.06,
+          "working_class": 0.07,
+          "financial": 0.05,
+          "foodie": 0.02,
+          "student": 0.04
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1310640463002275,
+              41.444101740189765
+            ],
+            [
+              2.132230552708755,
+              41.438553359412424
+            ],
+            [
+              2.1451636911217933,
+              41.423035363766935
+            ],
+            [
+              2.153879120793443,
+              41.417603379323914
+            ],
+            [
+              2.1614201902393293,
+              41.42209890607962
+            ],
+            [
+              2.162979485220271,
+              41.438293613988684
+            ],
+            [
+              2.162484834945823,
+              41.45023749395515
+            ],
+            [
+              2.1592082,
+              41.4508217
+            ],
+            [
+              2.1560531,
+              41.4502703
+            ],
+            [
+              2.154058,
+              41.4494057
+            ],
+            [
+              2.1523994,
+              41.4472024
+            ],
+            [
+              2.1488599,
+              41.4469292
+            ],
+            [
+              2.1448707,
+              41.4480805
+            ],
+            [
+              2.1421846,
+              41.4471026
+            ],
+            [
+              2.1379524,
+              41.4480575
+            ],
+            [
+              2.1349954,
+              41.4475867
+            ],
+            [
+              2.1325689,
+              41.4447423
+            ],
+            [
+              2.1310640463002275,
+              41.444101740189765
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sants-Montjuïc",
+        "city": "barcelona",
+        "description": "Sants-Montjuïc is a neighborhood in barcelona.",
+        "dominantVibe": "financial",
+        "vibes": {
+          "artsy": 0.02,
+          "nightlife": 0.06,
+          "upscale": 0.05,
+          "touristy": 0.07,
+          "working_class": 0.06,
+          "financial": 0.08,
+          "foodie": 0.06,
+          "student": 0.06
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                2.116123284348065,
+                41.32380910202664
+              ],
+              [
+                2.1299505,
+                41.3208674
+              ],
+              [
+                2.1392541,
+                41.3211715
+              ],
+              [
+                2.1480012,
+                41.3200233
+              ],
+              [
+                2.1525963,
+                41.3220009
+              ],
+              [
+                2.1526262,
+                41.3229481
+              ],
+              [
+                2.1520146,
+                41.3227272
+              ],
+              [
+                2.1539693,
+                41.327683
+              ],
+              [
+                2.1592481,
+                41.3273031
+              ],
+              [
+                2.1639414,
+                41.3380183
+              ],
+              [
+                2.1651785,
+                41.3375876
+              ],
+              [
+                2.1653892,
+                41.3383132
+              ],
+              [
+                2.1640708,
+                41.3383162
+              ],
+              [
+                2.1653475,
+                41.3411915
+              ],
+              [
+                2.1661811,
+                41.3413321
+              ],
+              [
+                2.1625231,
+                41.3425087
+              ],
+              [
+                2.162801,
+                41.3417935
+              ],
+              [
+                2.1610265,
+                41.3420969
+              ],
+              [
+                2.159476,
+                41.3432511
+              ],
+              [
+                2.1568435,
+                41.342293
+              ],
+              [
+                2.1540723,
+                41.3390144
+              ],
+              [
+                2.1489362,
+                41.3300004
+              ],
+              [
+                2.1459118,
+                41.3309856
+              ],
+              [
+                2.1472837,
+                41.3336998
+              ],
+              [
+                2.144278,
+                41.3347455
+              ],
+              [
+                2.1456111,
+                41.3365517
+              ],
+              [
+                2.1495681,
+                41.3366763
+              ],
+              [
+                2.1509158,
+                41.3464852
+              ],
+              [
+                2.1518706,
+                41.3464088
+              ],
+              [
+                2.1518116,
+                41.3457191
+              ],
+              [
+                2.1527381,
+                41.3463372
+              ],
+              [
+                2.1533088,
+                41.3427025
+              ],
+              [
+                2.1633454,
+                41.3486289
+              ],
+              [
+                2.1669062,
+                41.347144
+              ],
+              [
+                2.17035835269276,
+                41.35239725530766
+              ],
+              [
+                2.162720593204522,
+                41.374502705560005
+              ],
+              [
+                2.152046135426394,
+                41.38308086689979
+              ],
+              [
+                2.138940652944942,
+                41.38299780772344
+              ],
+              [
+                2.129531603480767,
+                41.37123754580947
+              ],
+              [
+                2.1329784,
+                41.364365
+              ],
+              [
+                2.1353016,
+                41.3622661
+              ],
+              [
+                2.1333635,
+                41.3599482
+              ],
+              [
+                2.1330177,
+                41.3563307
+              ],
+              [
+                2.1320003,
+                41.3555787
+              ],
+              [
+                2.1374024,
+                41.3488503
+              ],
+              [
+                2.1368394,
+                41.348325
+              ],
+              [
+                2.1389866,
+                41.3467726
+              ],
+              [
+                2.121144326868471,
+                41.341569734851184
+              ],
+              [
+                2.116123284348065,
+                41.32380910202664
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                2.1693732,
+                41.3263405
+              ],
+              [
+                2.1727995,
+                41.3170503
+              ],
+              [
+                2.1698895,
+                41.3264313
+              ],
+              [
+                2.173614063367886,
+                41.342974472294415
+              ],
+              [
+                2.1719815634347346,
+                41.347699306339635
+              ],
+              [
+                2.1695084,
+                41.3381988
+              ],
+              [
+                2.1709906,
+                41.3377959
+              ],
+              [
+                2.1708395,
+                41.3341046
+              ],
+              [
+                2.1699631,
+                41.3341844
+              ],
+              [
+                2.1711678,
+                41.3339224
+              ],
+              [
+                2.1693732,
+                41.3263405
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sarrià - Sant Gervasi",
+        "city": "barcelona",
+        "description": "Sarrià - Sant Gervasi is a neighborhood in barcelona.",
+        "dominantVibe": "financial",
+        "vibes": {
+          "artsy": 0.03,
+          "nightlife": 0.05,
+          "upscale": 0.04,
+          "touristy": 0.01,
+          "working_class": 0.22,
+          "financial": 0.28,
+          "foodie": 0.09,
+          "student": 0.15
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.115061502086419,
+              41.401651580888384
+            ],
+            [
+              2.126620844386213,
+              41.39401080326776
+            ],
+            [
+              2.133925700669698,
+              41.391503439943065
+            ],
+            [
+              2.135099484489613,
+              41.39431450702415
+            ],
+            [
+              2.1340369455470696,
+              41.40575268701765
+            ],
+            [
+              2.1169677058493943,
+              41.405071346458634
+            ],
+            [
+              2.115061502086419,
+              41.401651580888384
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Maternitat",
+        "city": "barcelona",
+        "description": "La Maternitat is a financial neighborhood in barcelona.",
+        "dominantVibe": "financial",
+        "vibes": {
+          "artsy": 0.01,
+          "nightlife": 0.24,
+          "upscale": 0.2,
+          "touristy": 0.04,
+          "working_class": 0.2,
+          "financial": 0.51,
+          "foodie": 0.2,
+          "student": 0.34
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1201259134335393,
+              41.38151485246149
+            ],
+            [
+              2.129531603480767,
+              41.37123754580947
+            ],
+            [
+              2.138940652944942,
+              41.38299780772344
+            ],
+            [
+              2.133925700669698,
+              41.391503439943065
+            ],
+            [
+              2.126620844386213,
+              41.39401080326776
+            ],
+            [
+              2.1201259134335393,
+              41.38151485246149
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "el Maresme",
+        "city": "barcelona",
+        "description": "el Maresme is a neighborhood in barcelona.",
+        "dominantVibe": "working_class",
+        "vibes": {
+          "artsy": 0.02,
+          "nightlife": 0.06,
+          "upscale": 0.06,
+          "touristy": 0.13,
+          "working_class": 0.14,
+          "financial": 0.08,
+          "foodie": 0.06,
+          "student": 0.06
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                2.2087964873262282,
+                41.41098559999843
+              ],
+              [
+                2.2132496241170347,
+                41.398927763269306
+              ],
+              [
+                2.2144348,
+                41.3994043
+              ],
+              [
+                2.2154668,
+                41.3985433
+              ],
+              [
+                2.2141804,
+                41.4001004
+              ],
+              [
+                2.2166846,
+                41.4027309
+              ],
+              [
+                2.2183391,
+                41.402101
+              ],
+              [
+                2.2169602,
+                41.4030549
+              ],
+              [
+                2.2177776,
+                41.40405
+              ],
+              [
+                2.2200824,
+                41.4052571
+              ],
+              [
+                2.2219277,
+                41.4040128
+              ],
+              [
+                2.2209719,
+                41.405138
+              ],
+              [
+                2.2215372,
+                41.4055614
+              ],
+              [
+                2.2218925,
+                41.4050714
+              ],
+              [
+                2.2236566,
+                41.4063922
+              ],
+              [
+                2.2257578,
+                41.4059773
+              ],
+              [
+                2.2247681,
+                41.4069153
+              ],
+              [
+                2.226242,
+                41.4067991
+              ],
+              [
+                2.2254277,
+                41.4073165
+              ],
+              [
+                2.2272081,
+                41.4103902
+              ],
+              [
+                2.2207503,
+                41.4125759
+              ],
+              [
+                2.221251,
+                41.4132178
+              ],
+              [
+                2.215304536702281,
+                41.41910283842209
+              ],
+              [
+                2.2087964873262282,
+                41.41098559999843
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                2.2219461,
+                41.4035631
+              ],
+              [
+                2.2223848,
+                41.403651
+              ],
+              [
+                2.2233982,
+                41.4053255
+              ],
+              [
+                2.2219461,
+                41.4035631
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                2.2269806,
+                41.4084051
+              ],
+              [
+                2.2283555,
+                41.4084217
+              ],
+              [
+                2.2278629,
+                41.4096128
+              ],
+              [
+                2.2269806,
+                41.4084051
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "el Besòs",
+        "city": "barcelona",
+        "description": "el Besòs is a neighborhood in barcelona.",
+        "dominantVibe": "nightlife",
+        "vibes": {
+          "artsy": 0,
+          "nightlife": 0.13,
+          "upscale": 0.03,
+          "touristy": 0.05,
+          "working_class": 0.09,
+          "financial": 0.05,
+          "foodie": 0.02,
+          "student": 0.09
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.2007683632373114,
+              41.41646633855914
+            ],
+            [
+              2.2087964873262282,
+              41.41098559999843
+            ],
+            [
+              2.215304536702281,
+              41.41910283842209
+            ],
+            [
+              2.2120635971452214,
+              41.42112891986091
+            ],
+            [
+              2.2007683632373114,
+              41.41646633855914
             ]
           ]
         ]
