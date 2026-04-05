@@ -1,51 +1,90 @@
 "use client";
 
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect } from "react";
 import Link from "next/link";
 import CityMap from "@/components/CityMap";
 import VibePanel from "@/components/VibePanel";
-import { CITIES, NeighborhoodProperties } from "@/data/types";
+import {
+  CityConfig,
+  NeighborhoodProperties,
+  loadCities,
+} from "@/data/types";
 import { findMatches } from "@/data/matching";
-import stockholm from "@/data/stockholm";
-import barcelona from "@/data/barcelona";
-import type { Feature, Polygon } from "geojson";
+import type { Feature, FeatureCollection, Polygon, MultiPolygon } from "geojson";
 
-const CITY_DATA = {
-  stockholm,
-  barcelona,
-} as const;
-
-type CityKey = keyof typeof CITY_DATA;
+type CityData = FeatureCollection<Polygon | MultiPolygon, NeighborhoodProperties>;
 
 export default function ExplorePage() {
-  const [leftCity, setLeftCity] = useState<CityKey>("stockholm");
-  const [rightCity, setRightCity] = useState<CityKey>("barcelona");
+  const [cities, setCities] = useState<Record<string, CityConfig> | null>(null);
+  const [cityKeys, setCityKeys] = useState<string[]>([]);
+  const [leftCity, setLeftCity] = useState<string>("");
+  const [rightCity, setRightCity] = useState<string>("");
+  const [leftData, setLeftData] = useState<CityData | null>(null);
+  const [rightData, setRightData] = useState<CityData | null>(null);
+  const [loading, setLoading] = useState(true);
+
   const [selected, setSelected] = useState<Feature<
-    Polygon,
+    Polygon | MultiPolygon,
     NeighborhoodProperties
   > | null>(null);
-  const [selectedSide, setSelectedSide] = useState<"left" | "right" | null>(
-    null
-  );
+  const [selectedSide, setSelectedSide] = useState<"left" | "right" | null>(null);
   const [hoveredName, setHoveredName] = useState<string | null>(null);
   const [highlightedMatch, setHighlightedMatch] = useState<string | null>(null);
 
+  // Load cities index on mount
+  useEffect(() => {
+    loadCities().then((c) => {
+      setCities(c);
+      const keys = Object.keys(c);
+      setCityKeys(keys);
+      if (keys.length >= 2) {
+        setLeftCity(keys[0]);
+        setRightCity(keys[1]);
+      }
+    });
+  }, []);
+
+  // Load city data when selection changes
+  useEffect(() => {
+    if (!leftCity) return;
+    setLoading(true);
+    fetch(`/data/${leftCity}/city.json`)
+      .then((r) => r.json())
+      .then((d) => {
+        setLeftData(d);
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
+  }, [leftCity]);
+
+  useEffect(() => {
+    if (!rightCity) return;
+    fetch(`/data/${rightCity}/city.json`)
+      .then((r) => r.json())
+      .then(setRightData);
+  }, [rightCity]);
+
   const matches = useMemo(() => {
-    if (!selected || !selectedSide) return [];
-    const targetData =
-      selectedSide === "left"
-        ? CITY_DATA[rightCity].features
-        : CITY_DATA[leftCity].features;
-    return findMatches(selected, targetData);
-  }, [selected, selectedSide, leftCity, rightCity]);
+    if (!selected || !selectedSide || !leftData || !rightData) return [];
+    const targetFeatures =
+      selectedSide === "left" ? rightData.features : leftData.features;
+    return findMatches(
+      selected as Feature<Polygon, NeighborhoodProperties>,
+      targetFeatures as Feature<Polygon, NeighborhoodProperties>[]
+    );
+  }, [selected, selectedSide, leftData, rightData]);
 
   const targetCityName =
-    selectedSide === "left" ? CITIES[rightCity].name : CITIES[leftCity].name;
+    cities && selectedSide
+      ? selectedSide === "left"
+        ? cities[rightCity]?.name
+        : cities[leftCity]?.name
+      : "";
 
   const handleNeighborhoodClick = useCallback(
     (side: "left" | "right") =>
       (feature: Feature<Polygon, NeighborhoodProperties>) => {
-        setSelected(feature);
+        setSelected(feature as Feature<Polygon | MultiPolygon, NeighborhoodProperties>);
         setSelectedSide(side);
         setHighlightedMatch(null);
       },
@@ -57,16 +96,24 @@ export default function ExplorePage() {
   }, []);
 
   const handleSwap = useCallback(() => {
-    setLeftCity((l) => {
-      setRightCity(l);
-      return rightCity;
-    });
+    const l = leftCity;
+    setLeftCity(rightCity);
+    setRightCity(l);
     setSelected(null);
     setSelectedSide(null);
     setHighlightedMatch(null);
-  }, [rightCity]);
+  }, [leftCity, rightCity]);
 
-  const bestMatchName = matches.length > 0 ? matches[0].feature.properties.name : null;
+  if (!cities || !leftData || !rightData || loading) {
+    return (
+      <div className="flex h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-zinc-950">
+        <p className="text-zinc-500">Loading city data...</p>
+      </div>
+    );
+  }
+
+  const bestMatchName =
+    matches.length > 0 ? matches[0].feature.properties.name : null;
 
   return (
     <div className="flex h-screen flex-col bg-zinc-50 font-sans dark:bg-zinc-950">
@@ -82,14 +129,14 @@ export default function ExplorePage() {
           <select
             value={leftCity}
             onChange={(e) => {
-              setLeftCity(e.target.value as CityKey);
+              setLeftCity(e.target.value);
               setSelected(null);
             }}
             className="rounded-md border border-zinc-300 bg-white px-3 py-1.5 text-sm dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-200"
           >
-            {Object.entries(CITIES).map(([key, c]) => (
+            {cityKeys.map((key) => (
               <option key={key} value={key}>
-                {c.name}
+                {cities[key].name}
               </option>
             ))}
           </select>
@@ -103,14 +150,14 @@ export default function ExplorePage() {
           <select
             value={rightCity}
             onChange={(e) => {
-              setRightCity(e.target.value as CityKey);
+              setRightCity(e.target.value);
               setSelected(null);
             }}
             className="rounded-md border border-zinc-300 bg-white px-3 py-1.5 text-sm dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-200"
           >
-            {Object.entries(CITIES).map(([key, c]) => (
+            {cityKeys.map((key) => (
               <option key={key} value={key}>
-                {c.name}
+                {cities[key].name}
               </option>
             ))}
           </select>
@@ -122,8 +169,8 @@ export default function ExplorePage() {
         {/* Left map */}
         <div className="flex-1">
           <CityMap
-            city={CITIES[leftCity]}
-            data={CITY_DATA[leftCity]}
+            city={cities[leftCity]}
+            data={leftData as FeatureCollection<Polygon, NeighborhoodProperties>}
             selectedNeighborhood={
               selectedSide === "left" ? selected?.properties.name ?? null : null
             }
@@ -141,7 +188,7 @@ export default function ExplorePage() {
         {/* Center panel */}
         <div className="w-80 shrink-0 border-x border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
           <VibePanel
-            selected={selected}
+            selected={selected as Feature<Polygon, NeighborhoodProperties> | null}
             matches={matches}
             targetCity={targetCityName}
             onMatchClick={handleMatchClick}
@@ -151,10 +198,12 @@ export default function ExplorePage() {
         {/* Right map */}
         <div className="flex-1">
           <CityMap
-            city={CITIES[rightCity]}
-            data={CITY_DATA[rightCity]}
+            city={cities[rightCity]}
+            data={rightData as FeatureCollection<Polygon, NeighborhoodProperties>}
             selectedNeighborhood={
-              selectedSide === "right" ? selected?.properties.name ?? null : null
+              selectedSide === "right"
+                ? selected?.properties.name ?? null
+                : null
             }
             highlightedNeighborhood={
               selectedSide === "left"

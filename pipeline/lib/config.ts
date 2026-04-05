@@ -16,6 +16,8 @@ export interface CityConfig {
   /** For admin strategy: which OSM admin_level to query */
   adminLevel?: number;
   filterRadiusKm: number;
+  minAreaKm2?: number;
+  maxAreaKm2?: number;
   exclude: string[];
   include: string[];
 }

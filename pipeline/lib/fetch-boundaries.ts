@@ -248,8 +248,17 @@ out skel qt;
     const areaM2 = turf.area(simplified);
     const areaKm2 = areaM2 / 1_000_000;
 
-    // Skip very tiny slivers
-    if (areaKm2 < 0.05) continue;
+    // Filter by area
+    const minArea = config.minAreaKm2 ?? 0.1;
+    const maxArea = config.maxAreaKm2 ?? 35;
+    if (areaKm2 < minArea) {
+      console.log(`  ✗ ${name} — ${areaKm2.toFixed(2)} km² (below min ${minArea} km²)`);
+      continue;
+    }
+    if (areaKm2 > maxArea) {
+      console.log(`  ✗ ${name} — ${areaKm2.toFixed(2)} km² (above max ${maxArea} km²)`);
+      continue;
+    }
 
     result.features.push({
       type: "Feature",
@@ -315,17 +324,15 @@ function filterAndProcess(
     const areaKm2 = areaM2 / 1_000_000;
 
     const isIncluded = config.include.includes(name);
+    const minArea = config.minAreaKm2 ?? 0.1;
+    const maxArea = config.maxAreaKm2 ?? 35;
     if (!isIncluded) {
-      if (areaKm2 < 0.1) {
-        console.log(
-          `  Skipping ${name} (too small: ${areaKm2.toFixed(2)} km²)`
-        );
+      if (areaKm2 < minArea) {
+        console.log(`  ✗ ${name} — ${areaKm2.toFixed(2)} km² (below min ${minArea} km²)`);
         continue;
       }
-      if (areaKm2 > 35) {
-        console.log(
-          `  Skipping ${name} (too large: ${areaKm2.toFixed(2)} km²)`
-        );
+      if (areaKm2 > maxArea) {
+        console.log(`  ✗ ${name} — ${areaKm2.toFixed(2)} km² (above max ${maxArea} km²)`);
         continue;
       }
     }

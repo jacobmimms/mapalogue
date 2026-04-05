@@ -1,0 +1,1165 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gamla stan",
+        "city": "stockholm",
+        "description": "Gamla stan is a artsy, nightlife, upscale neighborhood in stockholm.",
+        "dominantVibe": "artsy",
+        "vibes": {
+          "artsy": 1,
+          "nightlife": 0.98,
+          "upscale": 1,
+          "touristy": 1,
+          "working_class": 0.08,
+          "financial": 0.81,
+          "foodie": 0.89,
+          "student": 0.91
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.058142266066632,
+              59.322200996858754
+            ],
+            [
+              18.061920463669786,
+              59.312663148713696
+            ],
+            [
+              18.066437172017768,
+              59.31401742340171
+            ],
+            [
+              18.081665708396702,
+              59.326444707029765
+            ],
+            [
+              18.074349922842384,
+              59.33593906763658
+            ],
+            [
+              18.058142266066632,
+              59.322200996858754
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kungsholmen",
+        "city": "stockholm",
+        "description": "Kungsholmen is a working_class, foodie neighborhood in stockholm.",
+        "dominantVibe": "financial",
+        "vibes": {
+          "artsy": 0.18,
+          "nightlife": 0.35,
+          "upscale": 0.14,
+          "touristy": 0.17,
+          "working_class": 0.56,
+          "financial": 0.7,
+          "foodie": 0.61,
+          "student": 0.41
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.02807123621183,
+              59.33340186532315
+            ],
+            [
+              18.036158738404556,
+              59.324448685603976
+            ],
+            [
+              18.040539221908443,
+              59.32299251835878
+            ],
+            [
+              18.051574426066058,
+              59.327814440929544
+            ],
+            [
+              18.051499265266035,
+              59.329214574103375
+            ],
+            [
+              18.03376828894131,
+              59.34859436259779
+            ],
+            [
+              18.0303171,
+              59.3479812
+            ],
+            [
+              18.0310285,
+              59.3475241
+            ],
+            [
+              18.029478338492694,
+              59.34668500327507
+            ],
+            [
+              18.02807123621183,
+              59.33340186532315
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norrmalm",
+        "city": "stockholm",
+        "description": "Norrmalm is a neighborhood in stockholm.",
+        "dominantVibe": "working_class",
+        "vibes": {
+          "artsy": 0.21,
+          "nightlife": 0.67,
+          "upscale": 0.17,
+          "touristy": 0.59,
+          "working_class": 1,
+          "financial": 1,
+          "foodie": 1,
+          "student": 1
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.051499265266035,
+              59.329214574103375
+            ],
+            [
+              18.051574426066058,
+              59.327814440929544
+            ],
+            [
+              18.058142266066632,
+              59.322200996858754
+            ],
+            [
+              18.074349922842384,
+              59.33593906763658
+            ],
+            [
+              18.07305067994139,
+              59.34726033870079
+            ],
+            [
+              18.063338340415036,
+              59.35195120191428
+            ],
+            [
+              18.051499265266035,
+              59.329214574103375
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Södermalm",
+        "city": "stockholm",
+        "description": "Södermalm is a neighborhood in stockholm.",
+        "dominantVibe": "nightlife",
+        "vibes": {
+          "artsy": 0.26,
+          "nightlife": 1,
+          "upscale": 0.27,
+          "touristy": 0.2,
+          "working_class": 0.55,
+          "financial": 0.2,
+          "foodie": 0.71,
+          "student": 0.75
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.066437172017768,
+              59.31401742340171
+            ],
+            [
+              18.087727439732888,
+              59.30908012632609
+            ],
+            [
+              18.0905587538252,
+              59.31403564801605
+            ],
+            [
+              18.08706082351215,
+              59.324387199465285
+            ],
+            [
+              18.081665708396702,
+              59.326444707029765
+            ],
+            [
+              18.066437172017768,
+              59.31401742340171
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norra Djurgården",
+        "city": "stockholm",
+        "description": "Norra Djurgården is a neighborhood in stockholm.",
+        "dominantVibe": "student",
+        "vibes": {
+          "artsy": 0.02,
+          "nightlife": 0.03,
+          "upscale": 0,
+          "touristy": 0.02,
+          "working_class": 0,
+          "financial": 0,
+          "foodie": 0.01,
+          "student": 0.2
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.04508443446172,
+              59.3752284503313
+            ],
+            [
+              18.063338340415036,
+              59.35195120191428
+            ],
+            [
+              18.07305067994139,
+              59.34726033870079
+            ],
+            [
+              18.076448182723297,
+              59.348387830252626
+            ],
+            [
+              18.08721061908882,
+              59.35615473962014
+            ],
+            [
+              18.092359856935985,
+              59.370115775455666
+            ],
+            [
+              18.0779841,
+              59.3718494
+            ],
+            [
+              18.0711109,
+              59.3747793
+            ],
+            [
+              18.0485615,
+              59.3758007
+            ],
+            [
+              18.04508443446172,
+              59.3752284503313
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Djurgården",
+        "city": "stockholm",
+        "description": "Djurgården is a neighborhood in stockholm.",
+        "dominantVibe": "touristy",
+        "vibes": {
+          "artsy": 0.03,
+          "nightlife": 0,
+          "upscale": 0,
+          "touristy": 0.15,
+          "working_class": 0,
+          "financial": 0,
+          "foodie": 0,
+          "student": 0.02
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                18.104475983457228,
+                59.33747565366368
+              ],
+              [
+                18.109071654621253,
+                59.31678593682804
+              ],
+              [
+                18.1093278,
+                59.3176801
+              ],
+              [
+                18.1203515,
+                59.3185146
+              ],
+              [
+                18.1243704,
+                59.3180405
+              ],
+              [
+                18.1294304,
+                59.3196456
+              ],
+              [
+                18.1385727,
+                59.3202328
+              ],
+              [
+                18.1492465,
+                59.3186593
+              ],
+              [
+                18.15717,
+                59.319816
+              ],
+              [
+                18.1603166,
+                59.3208432
+              ],
+              [
+                18.163893,
+                59.3253325
+              ],
+              [
+                18.1603563,
+                59.3282256
+              ],
+              [
+                18.1605563,
+                59.334597
+              ],
+              [
+                18.1381377,
+                59.3443307
+              ],
+              [
+                18.1261711,
+                59.3476576
+              ],
+              [
+                18.123480854678476,
+                59.34966271201236
+              ],
+              [
+                18.106647643355867,
+                59.340472717364435
+              ],
+              [
+                18.104475983457228,
+                59.33747565366368
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                18.126294494881876,
+                59.30112404453696
+              ],
+              [
+                18.128142853811532,
+                59.29976366156873
+              ],
+              [
+                18.130138,
+                59.3012662
+              ],
+              [
+                18.126294494881876,
+                59.30112404453696
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                18.19916267291148,
+                59.2474934283578
+              ],
+              [
+                18.19962597588421,
+                59.24715243967691
+              ],
+              [
+                18.2000781,
+                59.2474732
+              ],
+              [
+                18.19916267291148,
+                59.2474934283578
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hjorthagen",
+        "city": "stockholm",
+        "description": "Hjorthagen is a neighborhood in stockholm.",
+        "dominantVibe": "working_class",
+        "vibes": {
+          "artsy": 0.01,
+          "nightlife": 0,
+          "upscale": 0,
+          "touristy": 0.04,
+          "working_class": 0.09,
+          "financial": 0.09,
+          "foodie": 0.01,
+          "student": 0.02
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.08721061908882,
+              59.35615473962014
+            ],
+            [
+              18.106647643355867,
+              59.340472717364435
+            ],
+            [
+              18.123480854678476,
+              59.34966271201236
+            ],
+            [
+              18.1125615,
+              59.3578012
+            ],
+            [
+              18.1112023,
+              59.360053
+            ],
+            [
+              18.0954841,
+              59.3697415
+            ],
+            [
+              18.092359856935985,
+              59.370115775455666
+            ],
+            [
+              18.08721061908882,
+              59.35615473962014
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Östermalm",
+        "city": "stockholm",
+        "description": "Östermalm is a neighborhood in stockholm.",
+        "dominantVibe": "financial",
+        "vibes": {
+          "artsy": 0.3,
+          "nightlife": 0.23,
+          "upscale": 0.73,
+          "touristy": 0.22,
+          "working_class": 0.03,
+          "financial": 0.77,
+          "foodie": 0.48,
+          "student": 0.53
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.07305067994139,
+              59.34726033870079
+            ],
+            [
+              18.074349922842384,
+              59.33593906763658
+            ],
+            [
+              18.081665708396702,
+              59.326444707029765
+            ],
+            [
+              18.08706082351215,
+              59.324387199465285
+            ],
+            [
+              18.097319505405533,
+              59.33458833339411
+            ],
+            [
+              18.076448182723297,
+              59.348387830252626
+            ],
+            [
+              18.07305067994139,
+              59.34726033870079
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marieberg",
+        "city": "stockholm",
+        "description": "Marieberg is a neighborhood in stockholm.",
+        "dominantVibe": "student",
+        "vibes": {
+          "artsy": 0,
+          "nightlife": 0,
+          "upscale": 0.06,
+          "touristy": 0.03,
+          "working_class": 0.02,
+          "financial": 0,
+          "foodie": 0.06,
+          "student": 0.11
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.0089312572973,
+              59.32983084268562
+            ],
+            [
+              18.01194958117106,
+              59.32174350133182
+            ],
+            [
+              18.01877583619484,
+              59.319774618978045
+            ],
+            [
+              18.022901280165335,
+              59.329236109345544
+            ],
+            [
+              18.009595956672005,
+              59.333142954721374
+            ],
+            [
+              18.0089312572973,
+              59.32983084268562
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stadshagen",
+        "city": "stockholm",
+        "description": "Stadshagen is a neighborhood in stockholm.",
+        "dominantVibe": "working_class",
+        "vibes": {
+          "artsy": 0,
+          "nightlife": 0,
+          "upscale": 0,
+          "touristy": 0.04,
+          "working_class": 0.28,
+          "financial": 0,
+          "foodie": 0.17,
+          "student": 0.1
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.00623411495964,
+              59.341545398832295
+            ],
+            [
+              18.009595956672005,
+              59.333142954721374
+            ],
+            [
+              18.022901280165335,
+              59.329236109345544
+            ],
+            [
+              18.02807123621183,
+              59.33340186532315
+            ],
+            [
+              18.029478338492694,
+              59.34668500327507
+            ],
+            [
+              18.0253514,
+              59.3443859
+            ],
+            [
+              18.0260155,
+              59.3439146
+            ],
+            [
+              18.0247724,
+              59.3393646
+            ],
+            [
+              18.00623411495964,
+              59.341545398832295
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vasastaden",
+        "city": "stockholm",
+        "description": "Vasastaden is a neighborhood in stockholm.",
+        "dominantVibe": "student",
+        "vibes": {
+          "artsy": 0.18,
+          "nightlife": 0.17,
+          "upscale": 0.12,
+          "touristy": 0.26,
+          "working_class": 0.42,
+          "financial": 0.24,
+          "foodie": 0.36,
+          "student": 0.45
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.033744,
+              59.34891
+            ],
+            [
+              18.051499265266035,
+              59.329214574103375
+            ],
+            [
+              18.063338340415036,
+              59.35195120191428
+            ],
+            [
+              18.04508443446172,
+              59.3752284503313
+            ],
+            [
+              18.0429878,
+              59.3743469
+            ],
+            [
+              18.0430556,
+              59.3722268
+            ],
+            [
+              18.0363903,
+              59.3714152
+            ],
+            [
+              18.037137,
+              59.3698203
+            ],
+            [
+              18.0435773,
+              59.3655349
+            ],
+            [
+              18.0489699,
+              59.3567441
+            ],
+            [
+              18.0450425,
+              59.3543992
+            ],
+            [
+              18.0449473,
+              59.3520863
+            ],
+            [
+              18.0432939,
+              59.3501824
+            ],
+            [
+              18.0407082,
+              59.3511312
+            ],
+            [
+              18.033744,
+              59.34891
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Liljeholmen",
+        "city": "stockholm",
+        "description": "Liljeholmen is a neighborhood in stockholm.",
+        "dominantVibe": "financial",
+        "vibes": {
+          "artsy": 0.01,
+          "nightlife": 0,
+          "upscale": 0,
+          "touristy": 0.03,
+          "working_class": 0.08,
+          "financial": 0.11,
+          "foodie": 0.04,
+          "student": 0.02
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.99282092645031,
+              59.261025963146096
+            ],
+            [
+              18.0049308,
+              59.2586309
+            ],
+            [
+              18.0115393,
+              59.2560783
+            ],
+            [
+              18.016297207733906,
+              59.255541486359256
+            ],
+            [
+              18.03559965309829,
+              59.298364698113
+            ],
+            [
+              18.02720997185951,
+              59.31510361034173
+            ],
+            [
+              18.01935856413005,
+              59.318242308332835
+            ],
+            [
+              17.99282092645031,
+              59.261025963146096
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Långholmen",
+        "city": "stockholm",
+        "description": "Långholmen is a neighborhood in stockholm.",
+        "dominantVibe": "foodie",
+        "vibes": {
+          "artsy": 0.04,
+          "nightlife": 0.07,
+          "upscale": 0.08,
+          "touristy": 0.07,
+          "working_class": 0.06,
+          "financial": 0,
+          "foodie": 0.11,
+          "student": 0.03
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.01877583619484,
+              59.319774618978045
+            ],
+            [
+              18.01935856413005,
+              59.318242308332835
+            ],
+            [
+              18.02720997185951,
+              59.31510361034173
+            ],
+            [
+              18.036158738404556,
+              59.324448685603976
+            ],
+            [
+              18.02807123621183,
+              59.33340186532315
+            ],
+            [
+              18.022901280165335,
+              59.329236109345544
+            ],
+            [
+              18.01877583619484,
+              59.319774618978045
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lilla Essingen",
+        "city": "stockholm",
+        "description": "Lilla Essingen is a neighborhood in stockholm.",
+        "dominantVibe": "working_class",
+        "vibes": {
+          "artsy": 0,
+          "nightlife": 0,
+          "upscale": 0,
+          "touristy": 0,
+          "working_class": 0.07,
+          "financial": 0,
+          "foodie": 0.01,
+          "student": 0
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.93722546786544,
+              59.28519792416912
+            ],
+            [
+              17.943053772874247,
+              59.2865527233056
+            ],
+            [
+              18.01194958117106,
+              59.32174350133182
+            ],
+            [
+              18.0089312572973,
+              59.32983084268562
+            ],
+            [
+              17.93722546786544,
+              59.28519792416912
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ladugårdsgärdet",
+        "city": "stockholm",
+        "description": "Ladugårdsgärdet is a neighborhood in stockholm.",
+        "dominantVibe": "student",
+        "vibes": {
+          "artsy": 0.01,
+          "nightlife": 0,
+          "upscale": 0,
+          "touristy": 0,
+          "working_class": 0.19,
+          "financial": 0.16,
+          "foodie": 0.13,
+          "student": 0.34
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.076448182723297,
+              59.348387830252626
+            ],
+            [
+              18.097319505405533,
+              59.33458833339411
+            ],
+            [
+              18.104475983457228,
+              59.33747565366368
+            ],
+            [
+              18.106647643355867,
+              59.340472717364435
+            ],
+            [
+              18.08721061908882,
+              59.35615473962014
+            ],
+            [
+              18.076448182723297,
+              59.348387830252626
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Djurgårdsstaden",
+        "city": "stockholm",
+        "description": "Djurgårdsstaden is a neighborhood in stockholm.",
+        "dominantVibe": "touristy",
+        "vibes": {
+          "artsy": 0.18,
+          "nightlife": 0.03,
+          "upscale": 0,
+          "touristy": 0.78,
+          "working_class": 0.15,
+          "financial": 0,
+          "foodie": 0.1,
+          "student": 0.09
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.08706082351215,
+              59.324387199465285
+            ],
+            [
+              18.0905587538252,
+              59.31403564801605
+            ],
+            [
+              18.10617832665156,
+              59.3133728399873
+            ],
+            [
+              18.1054016,
+              59.3137197
+            ],
+            [
+              18.1085907,
+              59.315107
+            ],
+            [
+              18.109071654621253,
+              59.31678593682804
+            ],
+            [
+              18.104475983457228,
+              59.33747565366368
+            ],
+            [
+              18.097319505405533,
+              59.33458833339411
+            ],
+            [
+              18.08706082351215,
+              59.324387199465285
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zinkensdamm",
+        "city": "stockholm",
+        "description": "Zinkensdamm is a neighborhood in stockholm.",
+        "dominantVibe": "working_class",
+        "vibes": {
+          "artsy": 0.07,
+          "nightlife": 0.22,
+          "upscale": 0,
+          "touristy": 0.09,
+          "working_class": 0.34,
+          "financial": 0.13,
+          "foodie": 0.1,
+          "student": 0.14
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.040533245595913,
+              59.30323781730387
+            ],
+            [
+              18.060941405956896,
+              59.30932257504923
+            ],
+            [
+              18.061920463669786,
+              59.312663148713696
+            ],
+            [
+              18.058142266066632,
+              59.322200996858754
+            ],
+            [
+              18.051574426066058,
+              59.327814440929544
+            ],
+            [
+              18.040539221908443,
+              59.32299251835878
+            ],
+            [
+              18.040533245595913,
+              59.30323781730387
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skanstull",
+        "city": "stockholm",
+        "description": "Skanstull is a neighborhood in stockholm.",
+        "dominantVibe": "financial",
+        "vibes": {
+          "artsy": 0.01,
+          "nightlife": 0.23,
+          "upscale": 0,
+          "touristy": 0.03,
+          "working_class": 0.27,
+          "financial": 0.5,
+          "foodie": 0.16,
+          "student": 0.11
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.060941405956896,
+              59.30932257504923
+            ],
+            [
+              18.081769474769168,
+              59.2644437395922
+            ],
+            [
+              18.087727439732888,
+              59.30908012632609
+            ],
+            [
+              18.066437172017768,
+              59.31401742340171
+            ],
+            [
+              18.061920463669786,
+              59.312663148713696
+            ],
+            [
+              18.060941405956896,
+              59.30932257504923
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hornstull",
+        "city": "stockholm",
+        "description": "Hornstull is a neighborhood in stockholm.",
+        "dominantVibe": "nightlife",
+        "vibes": {
+          "artsy": 0.03,
+          "nightlife": 0.25,
+          "upscale": 0.06,
+          "touristy": 0.01,
+          "working_class": 0.22,
+          "financial": 0,
+          "foodie": 0.25,
+          "student": 0.18
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.02720997185951,
+              59.31510361034173
+            ],
+            [
+              18.03559965309829,
+              59.298364698113
+            ],
+            [
+              18.040533245595913,
+              59.30323781730387
+            ],
+            [
+              18.040539221908443,
+              59.32299251835878
+            ],
+            [
+              18.036158738404556,
+              59.324448685603976
+            ],
+            [
+              18.02720997185951,
+              59.31510361034173
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

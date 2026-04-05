@@ -126,7 +126,13 @@ out tags;
     }
 
     const totalPois = Object.values(counts).reduce((s, c) => s + c, 0);
-    console.log(`    ${totalPois} POIs found across ${Object.keys(counts).length} categories`);
+
+    if (totalPois === 0 && areaKm2 > 0.5) {
+      console.log(`    ⚠ 0 POIs for ${name} (${areaKm2} km²) — server may have returned empty data`);
+      console.log(`      Polygon has ${outerRing.length} coords, query length: ${query.length} chars`);
+    } else {
+      console.log(`    ${totalPois} POIs found across ${Object.keys(counts).length} categories`);
+    }
 
     result.neighborhoods[name] = { areaKm2, counts };
 

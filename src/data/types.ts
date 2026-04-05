@@ -45,17 +45,27 @@ export interface CityConfig {
   zoom: number;
 }
 
-export const CITIES: Record<string, CityConfig> = {
-  stockholm: {
-    name: "Stockholm",
-    country: "SE",
-    center: [18.07, 59.33],
-    zoom: 12,
-  },
-  barcelona: {
-    name: "Barcelona",
-    country: "ES",
-    center: [2.17, 41.39],
-    zoom: 12.5,
-  },
-};
+export interface CitiesIndex {
+  [key: string]: CityConfig & {
+    osmRelationId?: number;
+    boundaryStrategy?: string;
+    adminLevel?: number;
+    filterRadiusKm?: number;
+  };
+}
+
+export async function loadCities(): Promise<Record<string, CityConfig>> {
+  const res = await fetch("/data/cities.json");
+  const data: CitiesIndex = await res.json();
+  // Extract just the CityConfig fields the frontend needs
+  const cities: Record<string, CityConfig> = {};
+  for (const [key, val] of Object.entries(data)) {
+    cities[key] = {
+      name: val.name,
+      country: val.country,
+      center: val.center,
+      zoom: val.zoom,
+    };
+  }
+  return cities;
+}
